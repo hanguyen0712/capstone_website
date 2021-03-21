@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Trading Strategy Education Website</title>
+
+   </head>
+    
+    <body>
+
+        <p>What is a moving average?
+A moving average is the average price of a stock within a period of time. For example, to calculate the 10-day moving average of a stock, we first calculate the average closing price from day one to day ten, then from day two to day eleven, then from day three to day twelve…
+The more days we use for our moving average, the smoother our moving average line becomes due to the averaging effect. For example, in the figure below, we can see that the 50-day-moving-average line (purple) is much smoother than the five-day-moving-average line (yellow).</p>
+<p>Moving averages help us look beyond short-term fluctuations to see longer-term trends. For example, in the graph above, it is difficult to identify trends if we just look at the candlestick chart. Looking at the yellow line (five-day moving average) gives us a general idea of how the stock moves up and down in the short-term. Meanwhile, the purple line (50-day moving average) tells us that over the medium term, the stock is trading in an uptrend. 
+In this website, we are just going to focus on the simplest moving average, conveniently called the simple moving average (SMA), which calculates the average closing price of a stock within a certain time window. </p>
+<p>SMA trading is a momentum trading strategy that assumes that stocks trade in trends and attempt to buy low and sell high in an uptrend (and short-sell high – buy back low in a downtrend). It uses two SMA lines – a short-term one and a long-term one – to determine a trend. If the short-term SMA crosses below the long-term SMA, it is in a downtrend, which triggers a sell signal. Else, if the short-term SMA cross above the long-term SMA, the stock is in an uptrend, which triggers a buy signal.
+Let us look at two examples of SMA trading on Tesla and Toyota stocks. The determination of the number of moving average days to use is more of an art than a science and requires significant trials and errors. For example, suppose we set the short-term SMA at five days (a.k.a. a trading week) and the long-term SMA at 50 days (a.k.a. two trading months). We start with $100,000 in capital and trade for two years, from 2019 to 2021. The green triangles indicate buying behavior, while the red ones indicate selling behavior. Eventually, our trading strategy would yield us $526, or a 5.2% profit, after two years of trading TSLA. Meanwhile, our trade with Toyota would only pay $6, or less than 1% profit. The key takeaway here is applying the same strategy to different stocks might yield different profits (or losses) because every stock has its own trajectory. Hence, it is necessary to test different SMA levels on historical data (a.k.a. ‘backtest’) to see which ones might work best for our stock of interest. It is worth noting, however, that a successfully backtested strategy does not guarantee future success in the real market because the stock might change its trajectory due to various endogenous and exogenous factors. </p>
+<p>Pros and cons of SMA trading strategy
+An advantage of the SMA strategy is that it is easy to comprehend and implement. Everyone can calculate the 10-day average closing price of a stock. Everyone understands that if the SMA line heads up, the stock is trading in an uptrend. Generally, the SMA strategy works well when there is a strong trend. Tesla was trading in a consistent uptrend, so we made more profit from trading the stock than Toyota, whose general trend was unclear. 
+However, moving average strategies, in general, do not respond well to sudden drastic price moves. Notice how in the graphs above, the red triangles are rarely situated at “peaks” but somewhere on the other side, when the price has decreased notably. When faced with such dramatic movements, traders relying solely on moving average crossovers might not be able to sell their shares quickly enough before a sudden dip to protect their investment. This is why risk mitigation using order types (e.g., using stop orders) is quintessential to this strategy.</p>
+
+  </body>
+</html>
